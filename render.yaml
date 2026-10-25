@@ -1,0 +1,14 @@
+# Render Blueprint: New > Blueprint > pick your GitHub repository.
+services:
+  - type: web
+    name: agrismart
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter            # a persistent disk needs a paid plan
+    healthCheckPath: /api/health
+    disk: { name: agrismart-data, mountPath: /data, sizeGB: 2 }
+    envVars:
+      - { key: NODE_ENV, value: production }
+      - { key: DATA_DIR, value: /data }
+      - { key: JWT_SECRET, generateValue: true }
+      - { key: ANTHROPIC_API_KEY, sync: false }

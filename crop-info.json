@@ -1,0 +1,551 @@
+{
+ "wheat": {
+  "n": "Wheat",
+  "names": [
+   "Wheat"
+  ],
+  "soil": [
+   "loam",
+   "clay"
+  ],
+  "d": "110–130 days",
+  "f": [
+   120,
+   60,
+   40
+  ],
+  "s": [
+   "Rabi"
+  ],
+  "ph": [
+   6,
+   7.5
+  ],
+  "w": 2,
+  "t": "Cool weather, 10–25 °C"
+ },
+ "rice": {
+  "n": "Rice (paddy)",
+  "names": [
+   "Rice"
+  ],
+  "soil": [
+   "clay",
+   "loam"
+  ],
+  "d": "120–150 days",
+  "f": [
+   100,
+   50,
+   50
+  ],
+  "w": 3,
+  "t": "Warm, humid, standing water"
+ },
+ "maize": {
+  "n": "Maize",
+  "names": [
+   "Maize"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "90–120 days",
+  "f": [
+   120,
+   60,
+   40
+  ],
+  "w": 2,
+  "t": "Warm, well-drained soil"
+ },
+ "cotton": {
+  "n": "Cotton",
+  "names": [
+   "Kapas"
+  ],
+  "soil": [
+   "black",
+   "loam"
+  ],
+  "d": "150–180 days",
+  "f": [
+   100,
+   50,
+   50
+  ],
+  "s": [
+   "Kharif"
+  ],
+  "w": 2,
+  "t": "Warm, long sunny season (seed cotton)",
+  "y": [
+   1.5,
+   2.5
+  ]
+ },
+ "soybean": {
+  "n": "Soybean",
+  "names": [
+   "Soyabean"
+  ],
+  "soil": [
+   "loam",
+   "black"
+  ],
+  "d": "90–110 days",
+  "f": [
+   20,
+   60,
+   40
+  ],
+  "s": [
+   "Kharif"
+  ],
+  "ph": [
+   6,
+   7
+  ],
+  "w": 2,
+  "t": "Warm, moderate rain"
+ },
+ "mustard": {
+  "n": "Mustard",
+  "names": [
+   "Rapeseed &Mustard"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "100–140 days",
+  "f": [
+   60,
+   30,
+   20
+  ],
+  "s": [
+   "Rabi"
+  ],
+  "ph": [
+   6,
+   7.5
+  ],
+  "w": 1,
+  "t": "Cool, dry weather"
+ },
+ "chickpea": {
+  "n": "Chickpea (gram)",
+  "names": [
+   "Gram"
+  ],
+  "soil": [
+   "loam",
+   "sandy",
+   "black"
+  ],
+  "d": "100–120 days",
+  "f": [
+   20,
+   50,
+   20
+  ],
+  "s": [
+   "Rabi"
+  ],
+  "w": 1,
+  "t": "Cool, dry; avoid waterlogging"
+ },
+ "potato": {
+  "n": "Potato",
+  "names": [
+   "Potato"
+  ],
+  "soil": [
+   "sandy",
+   "loam"
+  ],
+  "d": "90–110 days",
+  "f": [
+   150,
+   60,
+   100
+  ],
+  "s": [
+   "Rabi"
+  ],
+  "ph": [
+   5,
+   6.5
+  ],
+  "w": 2,
+  "t": "Cool nights, loose soil"
+ },
+ "onion": {
+  "n": "Onion",
+  "names": [
+   "Onion"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "100–150 days",
+  "f": [
+   100,
+   50,
+   50
+  ],
+  "s": [
+   "Rabi"
+  ],
+  "ph": [
+   6,
+   7.5
+  ],
+  "w": 2,
+  "t": "Mild climate, light irrigation"
+ },
+ "tomato": {
+  "n": "Tomato",
+  "names": [
+   "Tomato"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "90–120 days",
+  "f": [
+   120,
+   60,
+   60
+  ],
+  "s": [
+   "Rabi",
+   "Zaid"
+  ],
+  "ph": [
+   6,
+   7
+  ],
+  "w": 2,
+  "t": "Moderate temperature, 18–30 °C"
+ },
+ "groundnut": {
+  "n": "Groundnut",
+  "names": [
+   "Groundnut"
+  ],
+  "soil": [
+   "sandy",
+   "loam"
+  ],
+  "d": "100–130 days",
+  "f": [
+   20,
+   40,
+   40
+  ],
+  "s": [
+   "Kharif",
+   "Zaid"
+  ],
+  "ph": [
+   6,
+   7
+  ],
+  "w": 2,
+  "t": "Warm, light well-drained soil"
+ },
+ "kidneybeans": {
+  "n": "Kidney beans (Rajma)",
+  "names": [
+   "Rajmash Kholar"
+  ],
+  "soil": [
+   "loam"
+  ],
+  "d": "90–120 days",
+  "f": null,
+  "sFallback": [
+   "Kharif",
+   "Rabi"
+  ]
+ },
+ "pigeonpeas": {
+  "n": "Pigeon pea (Arhar/Tur)",
+  "names": [
+   "Arhar/Tur"
+  ],
+  "soil": [
+   "loam",
+   "black",
+   "sandy"
+  ],
+  "d": "150–270 days",
+  "f": null
+ },
+ "mothbeans": {
+  "n": "Moth bean",
+  "names": [
+   "Moth"
+  ],
+  "soil": [
+   "sandy",
+   "loam"
+  ],
+  "d": "60–90 days",
+  "f": null
+ },
+ "mungbean": {
+  "n": "Mung bean (Moong)",
+  "names": [
+   "Moong(Green Gram)"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "60–75 days",
+  "f": null
+ },
+ "blackgram": {
+  "n": "Black gram (Urad)",
+  "names": [
+   "Blackgram",
+   "Urad"
+  ],
+  "soil": [
+   "loam",
+   "clay",
+   "black"
+  ],
+  "d": "70–90 days",
+  "f": null
+ },
+ "lentil": {
+  "n": "Lentil (Masoor)",
+  "names": [
+   "Masoor",
+   "Lentil"
+  ],
+  "soil": [
+   "loam",
+   "clay"
+  ],
+  "d": "100–120 days",
+  "f": null
+ },
+ "jute": {
+  "n": "Jute",
+  "names": [
+   "Jute"
+  ],
+  "soil": [
+   "loam",
+   "clay"
+  ],
+  "d": "120–150 days",
+  "f": null,
+  "mul": 0.18
+ },
+ "banana": {
+  "n": "Banana",
+  "names": [
+   "Banana"
+  ],
+  "soil": [
+   "loam",
+   "clay"
+  ],
+  "d": "10–14 months",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "mango": {
+  "n": "Mango",
+  "names": [
+   "Mango"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "Perennial; fruits after 4–5 years",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "orange": {
+  "n": "Orange",
+  "names": [
+   "Orange"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "Perennial; fruits after 3–4 years",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "papaya": {
+  "n": "Papaya",
+  "names": [
+   "Papaya"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "9–12 months to first fruit",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "pomegranate": {
+  "n": "Pomegranate",
+  "names": [
+   "Pome Granet"
+  ],
+  "soil": [
+   "loam",
+   "sandy",
+   "black"
+  ],
+  "d": "Perennial; fruits after 2–3 years",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "grapes": {
+  "n": "Grapes",
+  "names": [
+   "Grapes"
+  ],
+  "soil": [
+   "loam",
+   "sandy"
+  ],
+  "d": "Perennial; fruits after 2–3 years",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "watermelon": {
+  "n": "Watermelon",
+  "names": [],
+  "soil": [
+   "sandy",
+   "loam"
+  ],
+  "d": "80–100 days",
+  "f": null,
+  "ml": 1,
+  "s": [
+   "Zaid"
+  ]
+ },
+ "muskmelon": {
+  "n": "Muskmelon",
+  "names": [],
+  "soil": [
+   "sandy",
+   "loam"
+  ],
+  "d": "75–100 days",
+  "f": null,
+  "ml": 1,
+  "s": [
+   "Zaid"
+  ]
+ },
+ "apple": {
+  "n": "Apple",
+  "names": [],
+  "soil": [
+   "loam"
+  ],
+  "d": "Perennial; fruits after 4–6 years",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "coffee": {
+  "n": "Coffee",
+  "names": [
+   "Coffee"
+  ],
+  "soil": [
+   "loam"
+  ],
+  "d": "Perennial; first crop after 3–4 years",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ },
+ "coconut": {
+  "n": "Coconut",
+  "names": [
+   "Coconut"
+  ],
+  "soil": [
+   "sandy",
+   "loam"
+  ],
+  "d": "Perennial; first nuts after 5–7 years",
+  "f": null,
+  "per": 1,
+  "ml": 1,
+  "noYield": true,
+  "s": [
+   "Kharif",
+   "Rabi",
+   "Zaid"
+  ]
+ }
+}
