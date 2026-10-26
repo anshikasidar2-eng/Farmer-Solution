@@ -6,4 +6,4 @@ if (major < 22 || (major === 22 && minor < 5)) {
 }
 const { server } = await import('./src/index.js');
 const { config } = await import('./src/config.js');
-server.listen(config.port, () => console.log(`AgriSmart running on http://localhost:${config.port} (photo check: ${config.diseaseProvider})`));
+server.listen(config.port, '0.0.0.0', () => console.log(`AgriSmart running on http://localhost:${config.port} (photo check: ${config.diseaseProvider})`));
